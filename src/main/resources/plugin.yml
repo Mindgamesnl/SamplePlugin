@@ -1,0 +1,3 @@
+name: Test Plugin
+version: ${project.version}
+main: nl.mindgamesnl.testplugin.TestPlugin
