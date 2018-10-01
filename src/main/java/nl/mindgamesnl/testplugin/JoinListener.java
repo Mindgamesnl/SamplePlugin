@@ -7,9 +7,9 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class JoinListener implements Listener {
 
     @EventHandler
-    public void onJoin(PlayerJoinEvent event) {
-        String name = event.getPlayer().getName();
-        event.setJoinMessage("Er is een nieuwe speler bij gekomen! wat een prutser die " + name);
+    public void onJoin(PlayerJoinEvent e) {
+        String name = e.getPlayer().getName();
+        e.setJoinMessage("Er is een nieuwe speler bij gekomen! wat een prutser die " + name);
     }
 
 }
